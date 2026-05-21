@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bar · Restaurante El Patio de Mari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,600&family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo"><img src="img/logo.png" alt="El Patio de Mari" /></a>
+    <ul class="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#carta">Carta</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#ambiente">El Patio</a></li>
+      <li><a href="#reserva">Reservar</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="tel:+34965967698" class="nav-cta"><i class="fa-solid fa-phone"></i> <span class="cta-text">Llamar</span></a>
+      <button class="nav-toggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="#nosotros">Nosotros</a>
+    <a href="#carta">Carta</a>
+    <a href="#galeria">Galería</a>
+    <a href="#ambiente">El Patio</a>
+    <a href="#reserva">Reservar</a>
+    <a href="tel:+34965967698" class="mob-cta"><i class="fa-solid fa-phone"></i> Llamar</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-slides">
+      <div class="hero-slide active" style="background-image:url('img/foto1.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/foto2.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('img/foto3.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-center">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <img src="img/logo-grande.png" alt="El Patio de Mari" class="hero-logo-img" />
+        </h1>
+        <p class="hero-desc">Cocina honesta con alma mediterránea.<br>Tapas, arroces y platos de siempre en un patio con carácter.</p>
+        <div class="hero-actions">
+          <a href="#reserva" class="hero-btn-primary">
+            <span>Reservar mesa</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#carta" class="hero-btn-secondary">Ver la carta</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bottom-bar">
+      <div class="hero-stat"><span class="hbs-num">4.8</span><span class="hbs-lbl"><i class="fa-solid fa-star"></i> Google</span></div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat"><span class="hbs-num">15+</span><span class="hbs-lbl">Años de tradición</span></div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat"><span class="hbs-num">100%</span><span class="hbs-lbl">Producto fresco</span></div>
+      <div class="hero-divider"></div>
+      <a href="tel:+34965967698" class="hero-cta-call">
+        <i class="fa-solid fa-phone"></i>
+        <span>+34 965 967 698</span>
+      </a>
+    </div>
+    <div class="hero-slide-dots">
+      <span class="hsd active"></span>
+      <span class="hsd"></span>
+      <span class="hsd"></span>
+    </div>
+  </section>
+
+  <div class="zocalo"></div>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros">
+    <div class="nos-media reveal">
+      <div class="nos-img-main">
+        <img src="img/foto5.jpg" alt="El local" />
+        <div class="nos-badge">
+          <span class="nos-badge-num">15+</span>
+          <span class="nos-badge-lbl">años<br>de tradición</span>
+        </div>
+      </div>
+      <div class="nos-img-secondary">
+        <img src="img/foto4.jpg" alt="Nuestros platos" />
+        <div class="nos-img-label">Cocina de siempre</div>
+      </div>
+    </div>
+    <div class="nos-txt reveal">
+      <p class="s-lbl">Nuestra historia</p>
+      <h2 class="s-title">Más que comer,<br><em>sentirse en casa</em></h2>
+      <div class="d-red"></div>
+      <p class="nos-lead">En El Patio de Mari somos una familia criada entre fogones y el ir y venir del bar de pueblo.</p>
+      <p>Todo lo que sale de nuestra cocina es casero, hecho con las manos y el corazón, uniendo tradición con toques frescos sin perder el sabor de siempre.</p>
+      <p>Pasa, siéntate y disfruta: aquí se cocina como en casa… pero con un poquito más de duende.</p>
+      <div class="nos-features">
+        <div class="nf-item">
+          <div class="nf-icon"><i class="fa-solid fa-fire-burner"></i></div>
+          <div class="nf-body">
+            <strong>Cocina casera</strong>
+            <span>Recetas de siempre, con producto de la tierra</span>
+          </div>
+        </div>
+        <div class="nf-item">
+          <div class="nf-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="nf-body">
+            <strong>Producto local</strong>
+            <span>Proveedores de proximidad, 100% fresco</span>
+          </div>
+        </div>
+        <div class="nf-item">
+          <div class="nf-icon"><i class="fa-solid fa-heart"></i></div>
+          <div class="nf-body">
+            <strong>Trato familiar</strong>
+            <span>Cada cliente es uno más de la familia</span>
+          </div>
+        </div>
+      </div>
+      <div class="stats">
+        <div><div class="st-num">15+</div><div class="st-lbl">Años de tradición</div></div>
+        <div><div class="st-num">100%</div><div class="st-lbl">Producto fresco</div></div>
+        <div><div class="st-num"><i class="fa-solid fa-star"></i> 4.8</div><div class="st-lbl">Valoración Google</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="zocalo"></div>
+
+  <!-- CARTA -->
+  <section id="carta">
+    <div class="carta-hdr reveal">
+      <p class="s-lbl">Lo que servimos</p>
+      <h2 class="s-title">Nuestra <em>carta</em></h2>
+      <div class="d-red"></div>
+    </div>
+    <div class="reveal">
+      <div class="tabs">
+        <button class="tb active" onclick="showTab('tapas',this)">Tapas &amp; Raciones</button>
+        <button class="tb" onclick="showTab('arroces',this)">Arroces</button>
+        <button class="tb" onclick="showTab('principales',this)">Principales</button>
+        <button class="tb" onclick="showTab('postres',this)">Postres</button>
+      </div>
+      <div class="panel active" id="tab-tapas">
+        <div class="items">
+          <div class="mi"><div class="mi-info"><span class="mi-name">Croquetas caseras (3 ud)</span><span class="mi-desc">Receta de la casa, crujientes y cremosas</span></div><span class="mi-price">4,50€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Patatas bravas</span><span class="mi-desc">Con salsa picante y alioli</span></div><span class="mi-price">4,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Calamares a la romana</span><span class="mi-desc">Con limón y mayonesa casera</span></div><span class="mi-price">7,50€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Gambas al ajillo</span><span class="mi-desc">En cazuela de barro</span></div><span class="mi-price">9,50€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Pulpo a la brasa</span><span class="mi-desc">Con pimentón de La Vera y aceite de oliva</span></div><span class="mi-price">14,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Marinera alicantina</span><span class="mi-desc">Rosquilleta, ensaladilla y anchoa</span></div><span class="mi-price">2,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Ensaladilla rusa</span><span class="mi-desc">Tradicional, con bonito del norte</span></div><span class="mi-price">5,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Tabla de embutidos ibéricos</span><span class="mi-desc">Jamón, lomo y chorizo</span></div><span class="mi-price">12,00€</span></div>
+        </div>
+      </div>
+      <div class="panel" id="tab-arroces">
+        <div class="items">
+          <div class="mi"><div class="mi-info"><span class="mi-name">Arroz a banda</span><span class="mi-desc">Tradicional alicantino, con alioli</span></div><span class="mi-price">14,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Paella valenciana</span><span class="mi-desc">Pollo, conejo y judía verde</span></div><span class="mi-price">14,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Arroz negro con sepia</span><span class="mi-desc">Con tinta de calamar y alioli</span></div><span class="mi-price">15,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Arroz caldoso de bogavante</span><span class="mi-desc">Mínimo 2 personas</span></div><span class="mi-price">24,00€/p</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Arroz meloso de setas</span><span class="mi-desc">Con trufa y parmesano</span></div><span class="mi-price">13,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Arroz al horno</span><span class="mi-desc">Costilla, morcilla y garbanzos</span></div><span class="mi-price">13,50€</span></div>
+        </div>
+      </div>
+      <div class="panel" id="tab-principales">
+        <div class="items">
+          <div class="mi"><div class="mi-info"><span class="mi-name">Entrecot a la plancha</span><span class="mi-desc">Con guarnición y salsa a elegir</span></div><span class="mi-price">18,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Secreto ibérico a la brasa</span><span class="mi-desc">Con patatas panadera</span></div><span class="mi-price">16,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Lubina al horno</span><span class="mi-desc">Con verduras asadas y salsa verde</span></div><span class="mi-price">17,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Rape en salsa verde</span><span class="mi-desc">Con almejas y gambas</span></div><span class="mi-price">18,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Cochinillo a la brasa</span><span class="mi-desc">Con manzana asada</span></div><span class="mi-price">19,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Pollo al ajillo</span><span class="mi-desc">Con vino blanco y hierbas</span></div><span class="mi-price">13,00€</span></div>
+        </div>
+      </div>
+      <div class="panel" id="tab-postres">
+        <div class="items">
+          <div class="mi"><div class="mi-info"><span class="mi-name">Crema catalana</span><span class="mi-desc">Flambeada al momento</span></div><span class="mi-price">4,50€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Tarta de queso</span><span class="mi-desc">Con mermelada de frutos rojos</span></div><span class="mi-price">5,00€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Coulant de chocolate</span><span class="mi-desc">Con helado de vainilla</span></div><span class="mi-price">5,50€</span></div>
+          <div class="mi"><div class="mi-info"><span class="mi-name">Helado artesano</span><span class="mi-desc">3 bolas, preguntar sabores del día</span></div><span class="mi-price">4,00€</span></div>
+        </div>
+      </div>
+      <p class="menu-note">Menú del día disponible de lunes a viernes · Alérgenos a petición</p>
+    </div>
+  </section>
+
+  <div class="zocalo"></div>
+
+  <!-- GALERÍA -->
+  <section id="galeria">
+    <div class="gal-hdr reveal">
+      <p class="s-lbl">Nuestro espacio</p>
+      <h2 class="s-title">El <em>patio</em></h2>
+      <p class="gal-sub">Azulejos, hierro forjado, luz mediterránea y el olor a cocina de siempre</p>
+    </div>
+    <div class="gal-mosaic">
+      <div class="gm-item gm-tall">
+        <img src="img/foto2.jpg" alt="Sala" />
+        <div class="gm-caption">
+          <span class="gm-tag">El ambiente</span>
+          <p>Un espacio con alma propia</p>
+        </div>
+      </div>
+      <div class="gm-item">
+        <img src="img/foto3.jpg" alt="Plato" />
+        <div class="gm-caption">
+          <span class="gm-tag">La cocina</span>
+          <p>Sabores de la tierra</p>
+        </div>
+      </div>
+      <div class="gm-item">
+        <img src="img/foto4.jpg" alt="Tapas" />
+        <div class="gm-caption">
+          <span class="gm-tag">Las tapas</span>
+          <p>Tradición en cada bocado</p>
+        </div>
+      </div>
+      <div class="gm-item gm-wide">
+        <img src="img/foto6.jpg" alt="Patio" />
+        <div class="gm-caption">
+          <span class="gm-tag">El patio</span>
+          <p>Nuestro rincón más especial</p>
+        </div>
+      </div>
+    </div>
+    <div class="gal-cta reveal">
+      <a href="#reserva" class="gal-btn">Reserva tu mesa <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- AMBIENTE -->
+  <section id="ambiente">
+    <div class="amb-inner">
+      <div class="reveal">
+        <p class="s-lbl">Por qué elegirnos</p>
+        <h2 class="s-title">Un patio con<br><em>carácter propio</em></h2>
+        <div class="d-red"></div>
+        <ul class="feats">
+          <li class="fi"><span class="fi-icon"><i class="fa-solid fa-archway"></i></span><div class="fi-body"><strong>Patio cubierto auténtico</strong><p>Azulejos tradicionales, estructura de hierro forjado y vegetación que recrea el espíritu del patio mediterráneo.</p></div></li>
+          <li class="fi"><span class="fi-icon"><i class="fa-solid fa-lemon"></i></span><div class="fi-body"><strong>Producto de temporada</strong><p>Trabajamos con proveedores locales. Siempre con el mejor producto de la zona y la temporada.</p></div></li>
+          <li class="fi"><span class="fi-icon"><i class="fa-solid fa-people-group"></i></span><div class="fi-body"><strong>Trato familiar</strong><p>Un negocio de toda la vida ideal para celebraciones en familia, con amigos o en pareja.</p></div></li>
+          <li class="fi"><span class="fi-icon"><i class="fa-solid fa-wine-glass"></i></span><div class="fi-body"><strong>Vinos de la tierra</strong><p>Selección de vinos alicantinos y valencianos a precio honesto, maridados con nuestra cocina.</p></div></li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="quote-box">
+          <blockquote>"Cocina de siempre con un toque moderno. Todo casero y muy sabroso. Se nota el cuidado en cada detalle."</blockquote>
+          <cite>— Reseña de Google Maps <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></cite>
+        </div>
+        <div class="reviews">
+          <div class="rv"><div class="rv-stars">★★★★★</div><p class="rv-txt">"Una experiencia gastronómica fantástica. Las tapas combinan tradición con un toque creativo."</p><div class="rv-aut">Cliente de Google</div></div>
+          <div class="rv"><div class="rv-stars">★★★★★</div><p class="rv-txt">"La comida es casera y muy sabrosa. Volveremos sin duda, trato muy amable y precios justos."</p><div class="rv-aut">Cliente de Google</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="zocalo"></div>
+
+  <!-- RESERVA -->
+  <section id="reserva">
+    <div class="res-left reveal">
+      <p class="s-lbl">Visítanos</p>
+      <h2 class="s-title">Reserva<br><em style="color:rgba(255,255,255,.82)">tu mesa</em></h2>
+      <div class="d-red"></div>
+      <div class="c-items">
+        <div class="ci"><span class="ci-icon"><i class="fa-solid fa-phone"></i></span><div><strong>Teléfono</strong><a href="tel:+34965967698">+34 965 967 698</a></div></div>
+        <div class="ci"><span class="ci-icon"><i class="fa-solid fa-location-dot"></i></span><div><strong>Dirección</strong><a href="https://maps.app.goo.gl/nT9iuvDYD8DRK69K9" target="_blank">Ver en Google Maps</a></div></div>
+        <div class="ci"><span class="ci-icon"><i class="fa-solid fa-envelope"></i></span><div><strong>Email</strong>info@elpatiodemari.es</div></div>
+      </div>
+      <div class="hor">
+        <span class="hor-d">Lunes</span><span class="hor-h">Cerrado</span>
+        <span class="hor-d">Mar – Jue</span><span class="hor-h">13:00 – 16:00</span>
+        <span class="hor-d">Viernes</span><span class="hor-h">13:00–16:30 · 20:00–23:00</span>
+        <span class="hor-d">Sábado</span><span class="hor-h">13:00–16:30 · 20:00–23:00</span>
+        <span class="hor-d">Domingo</span><span class="hor-h">13:00 – 16:30</span>
+      </div>
+    </div>
+    <div class="res-right reveal">
+      <div class="res-map-block">
+        <h3>Encuéntranos aquí</h3>
+        <p class="res-addr"><i class="fa-solid fa-location-dot"></i> Mutxamel, Alicante</p>
+        <div class="res-map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.3!2d-0.445705!3d38.4181588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd623ba3eb4e2d39%3A0x841144e414d4fa62!2sBar%20-%20Restaurante%20El%20Patio%20de%20Mari!5e0!3m2!1ses!2ses!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <a href="https://maps.app.goo.gl/nT9iuvDYD8DRK69K9" target="_blank" class="btn-call"><i class="fa-solid fa-diamond-turn-right"></i> Cómo llegar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="ft-grid">
+      <div class="ft-brand">
+        <div class="bn"><img src="img/logo.png" alt="El Patio de Mari" style="height:38px;width:auto;display:block" /></div>
+        <p>Bar · Restaurante · Cocina mediterránea y casera en el corazón de Alicante.</p>
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387.3!2d-0.445705!3d38.4181588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd623ba3eb4e2d39%3A0x841144e414d4fa62!2sBar%20-%20Restaurante%20El%20Patio%20de%20Mari!5e0!3m2!1ses!2ses!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="fc">
+        <h4>Horario</h4>
+        <ul>
+          <li>Lunes — Cerrado</li>
+          <li>Mar–Jue · 13:00–16:00</li>
+          <li>Vie–Sáb · 13:00–16:30 / 20:00–23:00</li>
+          <li>Dom · 13:00–16:30</li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+34965967698"><i class="fa-solid fa-phone"></i> +34 965 967 698</a></li>
+          <li><a href="mailto:info@elpatiodemari.es"><i class="fa-solid fa-envelope"></i> Email</a></li>
+          <li><a href="https://maps.app.goo.gl/nT9iuvDYD8DRK69K9" target="_blank"><i class="fa-solid fa-location-dot"></i> Cómo llegar</a></li>
+          <li><a href="https://www.facebook.com/p/Bar-Restaurante-El-Patio-de-Mari-100078898099539/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+        </ul>
+      </div>
+      <div class="fc">
+        <h4>Navegar</h4>
+        <ul>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#carta">Carta</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#ambiente">El Patio</a></li>
+          <li><a href="#reserva">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <span>© 2025 Bar · Restaurante El Patio de Mari · Alicante</span>
+      <span>Hecho con <i class="fa-solid fa-heart" style="color:var(--rojo)"></i> en la Costa Blanca</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
